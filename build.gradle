@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'org.apache.commons:commons-lang3:3.6'
 
     testImplementation platform('org.junit:junit-bom:5.9.1')
